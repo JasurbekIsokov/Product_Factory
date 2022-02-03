@@ -5,12 +5,14 @@
 
 body {
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 /* Question section */
 
 .background {
   background-color: #f0f0f0;
+  height: 100vh;
 }
 
 .container {
@@ -20,7 +22,8 @@ body {
 
 .title {
   text-align: center;
-  margin: 4% 0;
+  margin-bottom: 5%;
+  color: #000 !important;
 }
 
 .question {
@@ -30,7 +33,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   padding: 1.8% 2%;
-  margin: 2%;
+  margin: 2% 0;
   box-sizing: border-box;
   color: #555;
 }
@@ -46,4 +49,68 @@ body {
   cursor: pointer;
 }
 
-/* /Question section */ ;
+/* /Question section */
+
+/* Course fee section */
+
+.course__fee {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 3px 6px #999;
+  box-sizing: border-box;
+  padding: 8%;
+  color: #555;
+}
+
+.course {
+  display: flex;
+  justify-content: space-between;
+}
+
+.participating {
+  display: flex;
+  justify-content: start;
+  margin: 6% 0;
+}
+
+.fa-check-circle {
+  color: rgb(55, 160, 55);
+  margin-right: 2%;
+}
+
+.right__course {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 4%;
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.toman {
+  margin: 25px 0;
+}
+
+.button {
+  padding: 8px 33px;
+  background-color: coral;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(253, 133, 90);
+  color: #f0f0f0;
+}
+
+.line {
+  margin: 3% 0;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+/* /Course fee section */
