@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Question section */
+
+.background {
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin: 4% 0;
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.8% 2%;
+  margin: 2%;
+  box-sizing: border-box;
+  color: #555;
+}
+
+.fa-plus:hover {
+  color: #000;
+  font-size: 18px;
+}
+
+.question:hover {
+  background-color: #f9f9f9;
+  color: #000;
+  cursor: pointer;
+}
+
+/* /Question section */ ;
