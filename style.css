@@ -114,3 +114,37 @@ body {
 }
 
 /* /Course fee section */
+
+/* Request list section */
+
+.background__black {
+  background-color: #000;
+}
+
+.request__list {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.paragraph_req {
+  color: #777;
+  margin: 20px 0;
+}
+
+input[type="email"].email {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  width: 60%;
+  color: #fff;
+}
+
+.fa-envelope-open-text {
+  font-size: 120px;
+  margin: 30% 10% 0 0;
+}
+
+/* /Request list section */
