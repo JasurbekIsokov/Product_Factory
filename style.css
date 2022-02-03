@@ -149,3 +149,35 @@ input[type="email"].email {
 }
 
 /* /Request list section */
+
+/* Projects section  */
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.four {
+  padding: 5px 10px;
+  background-color: #d0d0d0;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.bck__1 {
+  width: 25vw;
+  height: 40vh;
+  background-color: #d0d0d0;
+  border-radius: 5px;
+  padding: 20% 20%;
+  box-sizing: border-box;
+}
+
+.bck__2 {
+  width: 15vw;
+  height: 35vh;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* /Projects section  */
