@@ -11,8 +11,8 @@ body {
 /* Question section */
 
 .background {
+  padding: 5% 0;
   background-color: #f0f0f0;
-  height: 100vh;
 }
 
 .container {
@@ -21,8 +21,8 @@ body {
 }
 
 .title {
-  text-align: center;
   margin-bottom: 5%;
+  text-align: center;
   color: #000 !important;
 }
 
@@ -59,6 +59,7 @@ body {
   box-shadow: 2px 3px 6px #999;
   box-sizing: border-box;
   padding: 8%;
+  margin-top: 10%;
   color: #555;
 }
 
