@@ -181,3 +181,51 @@ input[type="email"].email {
 }
 
 /* /Projects section  */
+
+/* Schedule section */
+
+.of__course {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.start__end {
+  width: 20%;
+  height: 0%;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  padding: 2%;
+  margin: 3%;
+  box-shadow: 2px 3px 6px #555;
+}
+
+.content__course {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin-top: 5%;
+}
+
+.nth {
+  padding: 7px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+}
+
+.sign__up {
+  margin-top: 10px;
+}
+
+/* /Schedule section */
