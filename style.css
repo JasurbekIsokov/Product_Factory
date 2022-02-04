@@ -40,7 +40,7 @@ body {
 
 .fa-plus:hover {
   color: #000;
-  font-size: 18px;
+  transform: scale(1.1);
 }
 
 .question:hover {
@@ -102,8 +102,12 @@ body {
 
 .button:hover {
   cursor: pointer;
-  background-color: rgb(253, 133, 90);
+  background-color: rgb(243, 65, 0);
   color: #f0f0f0;
+}
+
+.button:active {
+  transform: scale(1.1);
 }
 
 .line {
@@ -148,6 +152,10 @@ input[type="email"].email {
   margin: 30% 10% 0 0;
 }
 
+.fa-envelope-open-text:hover {
+  transform: scale(1.05);
+}
+
 /* /Request list section */
 
 /* Projects section  */
@@ -180,6 +188,14 @@ input[type="email"].email {
   border-radius: 5px;
 }
 
+.bck__1:hover {
+  box-shadow: 2px 3px 6px #999;
+}
+
+.bck__2:hover {
+  box-shadow: 2px 3px 15px #999;
+}
+
 /* /Projects section  */
 
 /* Schedule section */
@@ -210,6 +226,10 @@ input[type="email"].email {
   box-shadow: 2px 3px 6px #555;
 }
 
+.timeline:hover {
+  box-shadow: 0px 0px 6px #000;
+}
+
 .content__course {
   display: flex;
   justify-content: center;
@@ -224,8 +244,57 @@ input[type="email"].email {
   border-radius: 7px;
 }
 
+.nth:hover {
+  cursor: pointer;
+  box-shadow: 2px 3px 6px #555;
+}
+
 .sign__up {
   margin-top: 10px;
 }
 
 /* /Schedule section */
+
+/* Footer section */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5%;
+  padding: 3%;
+}
+
+.left-nav {
+  display: flex;
+  width: 9%;
+  align-items: center;
+}
+
+.left__footer i {
+  margin: 15px 10px;
+  font-size: 20px;
+}
+
+.left__footer i:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.left-nav a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.left-nav img {
+  width: 30%;
+  color: #000;
+  background-color: #fff;
+}
+
+.number {
+  margin: 15px 10px;
+}
+
+/* /Footer section */
