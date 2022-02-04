@@ -47,6 +47,7 @@ a:hover {
 .x-left-nav img {
   width: 30%;
 }
+
 .x-nav {
   display: flex;
   align-items: center;
@@ -203,4 +204,113 @@ h2 {
   gap: 5%;
   line-height: 2;
   align-items: center;
+}
+/* SESSION 3 */
+.x-session-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 10%;
+  border-left: 1px solid gray;
+}
+.x-session-grid-child-nav {
+  border-left: 3px solid black;
+}
+.x-session-grid-child-navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 1% 3%;
+  margin-left: 2%;
+  background-color: #e9ecef;
+  border-radius: 10px;
+}
+.x-session-grid-child-navbar div {
+  display: flex;
+}
+.x-session-grid-child-info {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  line-height: 2;
+  padding: 5%;
+}
+.x-session-grid-child-info img {
+  width: 30%;
+}
+/* SESSION4 */
+.x-masters-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5%;
+  margin-top: 5%;
+}
+.x-masters-grid-child {
+  display: grid;
+  gap: 7%;
+  align-items: center;
+  margin-top: 30%;
+}
+.x-master-img {
+  display: flex;
+  justify-content: center;
+}
+.x-master-img img {
+  border-radius: 10px;
+  width: 100%;
+}
+.x-master-img-focus {
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5));
+  border-radius: 10px;
+  width: 15%;
+  display: none;
+}
+.x-master-img:hover .x-master-img-focus {
+  display: block;
+}
+.x-master-sm {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10%;
+  padding: 29% 10%;
+}
+.x-master-sm i:hover {
+  color: #f46632;
+}
+.x-master-sm i:active {
+  transform: scale(1.1);
+}
+.x-about-master {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  padding: 5% 0;
+  background-image: linear-gradient(
+    rgba(133, 133, 133, 0.527),
+    rgba(133, 133, 133, 0.5)
+  );
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.x-about-master:hover {
+  background-color: white;
+}
+.x-about-master b {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+.x-menu-line {
+  display: flex;
+  flex-direction: column;
+}
+.x-menu-line p {
+  height: 10px;
 }
