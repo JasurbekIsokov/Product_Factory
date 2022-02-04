@@ -50,7 +50,8 @@ a:hover {
 .x-nav {
   display: flex;
   align-items: center;
-  gap: 10%;
+  gap: 5%;
+  width: 50%;
 }
 .x-nav a {
   color: #f0f0f0;
@@ -66,6 +67,7 @@ a:hover {
   border-radius: 20px;
   background-color: #343a40;
 }
+
 /* Hero section */
 .x-hero {
   display: grid;
@@ -107,4 +109,70 @@ a:hover {
 }
 .x-hero img {
   width: 100%;
+}
+
+/* SECTION 1 */
+.x-section1 {
+  padding: 5%;
+  /* background-color: #f0f0f0; */
+}
+/* .x-sec1 {
+  background-color: white;
+  padding: 5%;
+} */
+.x-sec1-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.x-pro-fac {
+  background-color: #080808;
+  padding: 8% 7%;
+  border-radius: 20px;
+  color: white;
+}
+.x-pro-fac {
+  display: grid;
+  grid-template-columns: 45% 20%;
+  justify-content: center;
+  align-items: center;
+}
+.x-pro-fac h1 {
+  font-size: 36px;
+}
+.x-about {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.x-about h1,
+h2 {
+  position: absolute;
+}
+.x-about h1 {
+  color: #e9ecef;
+  font-size: 100px;
+}
+.x-about h2 {
+  width: 200px;
+  /* padding-top: 5%; */
+}
+.x-about-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 24px;
+}
+.x-about-logo i:hover {
+  color: #f46632;
+}
+.x-about-logo i:active {
+  transform: scale(1.1);
+}
+.x-section1 p {
+  font-size: 20px;
+  line-height: 2;
+  padding-top: 3%;
 }
