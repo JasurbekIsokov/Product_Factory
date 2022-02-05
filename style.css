@@ -441,3 +441,86 @@ input[type="email"].email {
     height: 30vh;
   }
 }
+
+@media (max-width: 31.25em) {
+  .question p {
+    line-height: 17px;
+    margin-right: 10px;
+  }
+
+  .fa-plus {
+    font-size: 16px;
+  }
+
+  .fa-envelope-open-text {
+    font-size: 80px;
+    margin: 90% 10% 0 0;
+  }
+
+  .four {
+    font-size: 13.2px;
+    padding: 5px 10px;
+    width: 35px;
+  }
+
+  .timeline {
+    border-radius: 5px;
+    width: 25%;
+    padding: 1%;
+    margin: 5%;
+    box-shadow: 2px 3px 6px #555;
+  }
+
+  .timeline h2 {
+    font-size: 13.2px;
+  }
+
+  .content__course {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 5%;
+  }
+
+  h3.nth {
+    height: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13.2px;
+    margin-top: 5px;
+  }
+
+  .sign__up {
+    margin-top: 10px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left__footer {
+    order: 2;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .left-nav {
+    margin-left: -15%;
+    align-self: center;
+    order: 1;
+  }
+
+  .left-nav a {
+    font-size: 20px;
+  }
+
+  .left-nav img {
+    width: 100%;
+  }
+
+  .number {
+    order: 1;
+    text-align: center;
+  }
+}
