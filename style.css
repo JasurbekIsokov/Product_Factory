@@ -300,6 +300,8 @@ input[type="email"].email {
 
 /* /Footer section */
 
+/* Responsibe */
+
 @media (max-width: 56.25em) {
   .bck__1 {
     width: 25vw;
@@ -524,3 +526,5 @@ input[type="email"].email {
     text-align: center;
   }
 }
+
+/* /Responsibe */
