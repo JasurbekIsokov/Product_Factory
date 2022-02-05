@@ -7,6 +7,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: sans-serif;
 }
@@ -21,6 +24,9 @@ a:hover {
 }
 .x-black {
   background-color: #080808;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 .x-header {
   color: #f0f0f0;
@@ -47,7 +53,9 @@ a:hover {
 .x-left-nav img {
   width: 30%;
 }
-
+.fa-bars {
+  display: ;
+}
 .x-nav {
   display: flex;
   align-items: center;
@@ -80,7 +88,11 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  line-height: 1.5;
+}
+.x-hero-left-h {
+  line-height: 0.9;
+  display: grid;
+  gap: 15%;
 }
 .x-hero-left-h h1 {
   font-size: 52px;
