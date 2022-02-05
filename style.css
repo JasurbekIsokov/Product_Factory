@@ -402,6 +402,19 @@ input[type="email"].email {
     margin: 30% 10% 0 0;
   }
 
+  .request__list {
+    padding: 40px 20px;
+  }
+
+  .paragraph_req {
+    margin: 20px 0;
+  }
+
+  .fa-envelope-open-text {
+    font-size: 100px;
+    margin: 30% 10% 0 0;
+  }
+
   .projects {
     display: flex;
     flex-direction: column;
