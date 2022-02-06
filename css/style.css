@@ -15,6 +15,7 @@ body {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 a:active {
   transform: scale(1.1);
@@ -54,12 +55,13 @@ a:hover {
   width: 30%;
 }
 .fa-bars {
-  display: ;
+  display: none;
+  color: white;
 }
 .x-nav {
   display: flex;
   align-items: center;
-  gap: 5%;
+  gap: 10%;
   width: 60%;
 }
 .x-nav a {
@@ -82,7 +84,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5%;
-  padding: 5%;
+  padding: 10% 5%;
 }
 .x-hero-left {
   display: flex;
@@ -201,14 +203,17 @@ h2 {
   width: 80%;
   margin: 10% auto 2% auto;
   text-align: center;
+  align-items: center;
 }
 
 .x-course-tab p {
   padding: 2% 5%;
   width: 100%;
+  border-radius: 20px;
+  height: 100%;
 }
-.x-course-tab p:focus {
-  background-color: #080808;
+.x-course-tab p:hover {
+  font-weight: 600;
 }
 .x-course-tab-info {
   display: grid;
@@ -279,7 +284,8 @@ h2 {
   justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5));
   border-radius: 10px;
-  width: 15%;
+  width: 14.5%;
+  /* height: 30%; */
   display: none;
 }
 .x-master-img:hover .x-master-img-focus {
@@ -299,7 +305,6 @@ h2 {
 }
 .x-about-master {
   display: flex;
-  font-size: 16px;
   align-items: center;
   justify-content: center;
   gap: 10%;
@@ -308,6 +313,7 @@ h2 {
     rgba(133, 133, 133, 0.527),
     rgba(133, 133, 133, 0.5)
   );
+  background-size: 100%;
   border-radius: 10px;
   width: 80%;
   margin: 0 auto;

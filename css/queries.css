@@ -1,0 +1,189 @@
+@media (max-width: 68.75em) {
+  .x-left-nav a {
+    font-size: 14px;
+  }
+  .x-left-nav {
+    gap: 5%;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .x-menu-bar {
+    position: relative;
+    display: inline-block;
+    margin-left: -70%;
+  }
+  .x-nav {
+    background-color: #495057;
+    position: absolute;
+    flex-direction: column;
+    width: 150px;
+    display: none;
+  }
+  .x-nav a {
+    padding: 7%;
+    align-content: flex-start;
+    justify-content: flex-start;
+    display: block;
+  }
+
+  .x-menu-bar:hover .x-nav {
+    display: block;
+  }
+  .x-hero-left-h h1 {
+    font-size: 40px;
+  }
+  .x-hero-left-h i {
+    font-size: 30px;
+  }
+  .x-hero-left p {
+    font-size: 16px;
+  }
+  .x-hero-left a {
+    font-size: 16px;
+  }
+  .x-about h1 {
+    font-size: 62px;
+  }
+  .x-section1 p {
+    font-size: 16px;
+  }
+  .x-course-tab-info p {
+    font-size: 14px;
+  }
+  .x-masters-grid-child p {
+    font-size: 14px;
+  }
+  .x-about-master b {
+    font-size: 12px;
+  }
+  .x-about-master i {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 53em) {
+  .x-menu-bar {
+    margin-left: -60%;
+  }
+  .x-register {
+    font-size: 12px;
+  }
+  .x-nav a {
+    font-size: 12px;
+  }
+  .x-hero-left-h h1 {
+    font-size: 30px;
+  }
+  .x-hero-left-h i {
+    font-size: 20px;
+  }
+  .x-hero-left p {
+    font-size: 12px;
+  }
+  .x-hero-left a {
+    font-size: 12px;
+  }
+  .x-sec1-flex {
+    display: grid;
+    gap: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  .x-about-logo {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .x-section1 p {
+    font-size: 12px;
+    margin-top: 20%;
+  }
+  .x-course-tab {
+    font-size: 14px;
+    width: 100%;
+  }
+  .x-course-tab-info {
+    grid-template-columns: 1fr;
+    align-items: center;
+    align-content: center;
+  }
+  .x-course-tab-info img {
+    width: 30%;
+    justify-self: center;
+  }
+  .x-session-grid-child-navbar h3 {
+    font-size: 16px;
+  }
+  .x-session-grid-child-nav i,
+  p,
+  a {
+    font-size: 12px;
+  }
+  .x-masters-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .x-master-img-focus {
+    width: 30%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .x-menu-bar {
+    margin-left: -40%;
+  }
+  .x-left-nav a {
+    font-size: 12px;
+  }
+  .x-hero {
+    grid-template-columns: 1fr;
+  }
+  .x-hero-left {
+  }
+  .x-hero-left-h {
+    margin: 10% 0;
+  }
+  .x-hero img {
+    width: 90%;
+  }
+  .x-pro-fac h1 {
+    font-size: 20px;
+  }
+  .x-section1 p {
+    margin-top: 30%;
+  }
+  .x-course-tab {
+    margin-top: 20%;
+  }
+  .x-course-tab-info p {
+    font-size: 12px;
+  }
+  .x-sec1-flex {
+    gap: 20%;
+  }
+  .x-about {
+    margin-top: 10%;
+  }
+  .x-session-grid-child {
+    display: flex;
+  }
+
+  .x-session-grid-child-navbar {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 90%;
+    gap: 10%;
+    background-color: none;
+    padding: 10%;
+  }
+  .x-session-grid-child-info {
+    grid-template-columns: 1fr;
+    padding: 10%;
+  }
+  .x-masters-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .x-master-img-focus {
+    width: 43%;
+  }
+}
